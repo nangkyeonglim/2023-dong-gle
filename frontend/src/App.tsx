@@ -7,7 +7,7 @@ const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       useErrorBoundary: true,
-      // suspense: true, // 전체를 감싸니까 깜빡임 현상이 일어남
+      // suspense: true, 
     },
   },
 });
